@@ -2,4 +2,57 @@
 naranja: #eea97f
 celeste: #86f9e6
 azul: #516186
-rojo: #d56c70
+rojo: #d56c70*/
+body{
+    background-color:  #ebebe0
+    ;
+}
+.main-title {
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    text-justify: auto;
+    font-size: 50px;
+}
+.movie-title {
+    padding: 12px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-sypnosis {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 5%;
+    
+}
+.movie-image {
+    margin: 3%;
+    width: 90%;
+    display: flex;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 0 0 0;
+    padding: 0;
+    height: 150px;
+    background-color: #516186;
+}
+.social-media-container{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media{
+    width: 40px;
+    margin: 5px;
+}
