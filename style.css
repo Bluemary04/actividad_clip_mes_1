@@ -4,8 +4,54 @@ celeste: #86f9e6
 azul: #516186
 rojo: #d56c70*/
 body{
-    background-color:  #ebebe0
-    ;
+    background-color: #fff;
+    text-decoration: none;
+    font-style: arial;
+}
+li {
+    list-style: none;
+    color: black;
+}
+.navbar{
+    background-color: #eea97f;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.nav-link{
+    font-size: 24px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+}
+.quote-font{
+    margin: 0 0 46px 0;
+    align-self: flex-end;
+}
+.history_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.history-text{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 2% 5%;
+}
+
+.table-title{
+    margin: 46px 0 24px 24px;
+    padding: 10px;
 }
 .main-title {
     margin: 36px;
@@ -43,10 +89,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 36px 0 0 0;
+    margin: 100px 0 0 0;
     padding: 0;
     height: 150px;
     background-color: #516186;
+}
+.footer_item{
+    margin: 2%;
 }
 .social-media-container{
     display: flex;
@@ -54,5 +103,59 @@ body{
 }
 .social-media{
     width: 40px;
+    margin: 5px;   
+}
+@media only screen and (min-width: 760px) {
+    .video{
+      width: 480px;
+    }
+  }
+.game_container{
+    margin: 100px 25px;
+    background-color: rgb(62, 64, 64, 0.4);
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+}
+.game_form{
+    margin: 12px 12px 12px 0;
+    outline: #516186;
+}
+.intentos{
+    margin: 0;
+}
+
+.clue{
+    margin: 12px;
+    padding: 8px;
+    display: none;
+    align-content: center;
+    background-color: #fbf17a;
+    border: 2px solid #516186;
+}
+
+.clue_text{
     margin: 5px;
 }
+
+.game_btn{
+    margin: 12px;;
+    background-color: #516186;
+    color: #fff;
+} 
+
+.form_container{
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    background-color:  #fbf17a;
+}
+.form_btn{
+    margin: 36px;
+    padding: 12px 24px;
+    align-self: center;
+    justify-self: center;
+    background-color: #516186;
+    color: #fff;
+}
+    

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/totoro.svg" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="movies.html">Películas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.ghibli-museum.jp/en/" target="_blank">Museo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+           <div class="container">
+            <h1 class="title">Nuestra historia</h1>
+            <p class="history-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae beatae saepe 
+                consequatur quia quaerat vitae nihil maiores repellendus unde fugiat ex, ipsam 
+                numquam laboriosam dolorem nulla? Perspiciatis iste ullam minus. Fugiat eum, amet 
+                autem ratione ex quas maiores facilis molestiae sapiente optio unde molestias 
+                commodi, sed numquam. Temporibus quas nesciunt a cumque sunt ut mollitia 
+                recusandae ipsa ea in voluptatibus fuga provident, esse earum quae minima 
+                perferendis repellendus. Quasi reprehenderit minima minus numquam aliquam quia, 
+                repudiandae consequatur quo adipisci, harum doloribus, perferendis rerum 
+                voluptatibus deleniti explicabo molestiae nulla officiis corrupti accusantium 
+                iure soluta nemo pariatur distinctio. Blanditiis voluptas facere perferendis 
+                necessitatibus incidunt? Quis aliquid tempora voluptas velit, ea corrupti eum 
+                saepe recusandae aut ducimus exercitationem tenetur, beatae adipisci veniam, 
+                soluta harum. Sit magnam quod quaerat repellendus sed, natus totam aliquam saepe
+                molestiae in. Numquam non omnis rerum aliquid alias minima tempora cupiditate 
+                consequatur, soluta, consectetur necessitatibus id cum! Blanditiis, aut.</p>
+            <p class="history-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates delectus
+                optio ullam corrupti ex ipsam nulla nobis dolore iste ducimus repellat accusamus
+                nostrum non est, autem sint sequi sit. Modi.</p>
+           </div>
+        </section>
+        <section>
+           <div class="container">
+              <div class="game_container">
+                <h3 class="title">¿Te animás a adivinar cuál es nuestra película favorita?</h3>
+                <p class="intentos">Tenés: 4 intentos</p>
+                <div class="form-row">
+                  <div class="col-7">
+                      <input type="text" class="form-control game_form" id="answer">
+                  </div>
+                  <div class="col-3">
+                      <button class="btn game_btn" id="game_btn">Jugar</button>
+                  </div>
+                  <div class="col-2">
+  
+                  </div>
+                </div>
+                <div class="clue clue_1">
+                    <p class="clue_text">Pista 1: El director es Hisao Miyazaki</p>
+                </div>
+                <div class="clue clue_2">
+                  <p class="clue_text">Pista 2: El director es Hisao Miyazaki</p>
+              </div>
+                <div class=" win_alert">
+                 
+                </div>
+                <div class="lose_alert">
+  
+                </div>
+              </div>
+           </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 class="title">¡Contáctanos!</h1>
+                <form action="#"  class="needs-validation form_container" novalidate>
+                    <div class="form-group">
+                        <label for="name">Nombre y apellido</label>
+                        <input type="text" id="name" class="form-control" placeholder= "nombre y apellido"required>
+                        <div class="valid-feedback">ok</div>
+                        <div class="invalid-feedback">Dato obligatorio</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Mail</label>
+                        <input type="email" id="mail" class="form-control" placeholder="nombre@gmail.com" required>
+                        <div class="valid-feedback">ok</div>
+                        <div class="invalid-feedback">Dato obligatorio</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="number" id="phone" class="form-control" placeholder= "156777777" min="9" required>
+                        <div class="valid-feedback">ok</div>
+                        <div class="invalid-feedback">Dato obligatorio</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Quiero recibir nuevas noticias</label>
+                      </div>
+                    <button class="btn form_btn" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <div class="container-fluid footer">
+            <p class="footer_item">Copyright 2020</p>
+            <ul class="social-media-container footer_item">
+                <li><a href="https://twitter.com" class= "social-media" target="blank"><img class= "social-media" src="images/twitter.svg"></a></li>
+                <li><a href="https://facebook.com" class= "social-media" target="blank"><img  class= "social-media" src="images/facebook.svg"></a></li>
+                <li><a href="https://instagram.com" class= "social-media" target="blank"><img  class= "social-media" src="images/instagram.svg"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

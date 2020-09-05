@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio de práctica</title>
+    <title>Studio Ghibli</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="background-color: #eea97f;">
-        <div>
-            <img src="totoro.svg" width="100px" height="100px">
-        </div>
-        <nav>
-            <ul>
-                <a href="http://www.ghibli-museum.jp/en/" target="_blank"><li>Museo</li></a>
-                <a href="movies.html"><li>Películas</li></a>
-                <a href="#"><li>Sobre nosotros</li></a>
-            </ul>
-        </nav>
-    </header>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/totoro.svg" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="movies.html">Películas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://www.ghibli-museum.jp/en/" target="_blank">Museo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header> 
     <main>
-        <article>
-            <h1>"We each need to find our own inspiration. Sometimes it's not easy."</h1>
-            <p>Kiki's Delivery Service</p>
+        <article class="container quote">
+            <h1 class="title">"We each need to find our own inspiration. Sometimes it's not easy."</h1>
+            <p class="quote-font">Kiki's Delivery Service</p>
         </article>
         <article>
-            <img src="studio-ghibli-logo.svg" width="100%" style="background-color: #fbf17a;">
+            <img src="images/studio-ghibli-logo.svg" width="100%" style="background-color: #fbf17a;">
         </article>
-        <section>
-            <h1>Historia</h1>
-            <p>Fundado en 1985, el estudio está dirigido por el galardonado director Hayao Miyazaki, y hasta 
+        <section class="container history_section">
+            <h1 class="title">Historia</h1>
+            <p class="history-text">Fundado en 1985, el estudio está dirigido por el galardonado director Hayao Miyazaki, y hasta 
                 2018 estuvo dirigido por Miyazaki junto a su amigo y mentor, Isao Takahata, fallecido en ese 
                 año. Sus orígenes datan de 1983, con la película Nausicäa del Valle del Viento, la cual comenzó 
                 como un manga en una publicación de la revista Tokuma Shoten. Tokuma era la compañía "madre" de 
@@ -37,12 +50,12 @@
                 La princesa Mononoke y El viaje de Chihiro. El compositor Joe Hisaishi ha creado la banda sonora 
                 para muchas de las películas del Studio Ghibli.
             </p>
-            <p>
+            <p class="history-text">
                 Debido a la fama de los estudios se abrió en las afueras de Tokio el Museo Ghibli. El 1 de 
                 septiembre de 2013, el director de cine y cofundador de la compañía, Hayao Miyazaki, anunció 
                 su retirada a través de un comunicado oficial. 
             </p>
-            <p>
+            <p class="history-text">
                 El 3 de agosto de 2014, Toshio Suzuki, productor del estudio y uno de los fundadores del estudio, 
                 anunciaba que clausuraban su sección de producción de largometrajes. Uno de los factores que 
                 provocaron esta decisión fue la retirada del director de cine Hayao Miyazaki, otro de los 
@@ -52,88 +65,173 @@
                 con sus licencias hasta acabar un proceso de reestructuración.
                  El 10 de agosto de 2017, el estudio reabrió sus puertas.
             </p>
-            <p>
+            <p class="history-text">
                 Cabe destacar que las películas de dicho estudio han adquirido muchos premios, entre ellas cinco 
                 de sus películas fueron nominadas al Óscar a la producción cinematográfica de animación más 
                 destacada; las cintas nominadas fueron: El viaje de Chihiro (2001), El castillo ambulante (2004), 
                 El recuerdo de Marnie (2014), El viento se levanta (2013) y El cuento de la princesa Kaguya (2013). 
                 A pesar de estas numerosas nominaciones, tan solo El viaje de Chihiro fue galardonada con el Óscar.
             </p>
-            <p>
+            <p class="history-text">
                 Además de las películas ya mencionadas, muchas otras contaron con un gran éxito en los cines, como 
                 puede ser el caso de El castillo ambulante y Ponyo en el acantilado. A lo largo de todas sus películas 
                 han contado con grandes voces para el doblaje en inglés, como por ejemplo Patrick Stewart, Anne Hathaway,
                 Elle Fanning, Liam Neeson, Matt Damon, entre otros.
             </p>
-            <p>
+            <p class="history-text last_p">
                 El 3 de junio de 2020, se anunció oficialmente el lanzamiento de Earwig y la bruja, la primera película 
                 en animación del estudio hecha por ordenador.
             </p>
+            <div class="container video embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4RbBRkrZ01M" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
-        <section>
-            <h2>Top 10 de sus películas</h2>
-            <table>
-                <tr>
-                    <th>Año</th>
-                    <th>Título</th>
-                    <th>Director</th>
-                </tr>
-                <tr>
-                    <td>2001</td>
-                    <td>El viaje de Chihiro</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>1997</td>
-                    <td>La princesa Mononoke</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>1988</td>
-                    <td>Mi vecino Totoro</td>
-                    <td>Hayao Miyasaki</td>
-                </tr>
-                <tr>
-                    <td>1992</td>
-                    <td>Porco Rosso</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>1986</td>
-                    <td>El castillo en el cielo</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>2004</td>
-                    <td>El castillo ambulante</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>1994</td>
-                    <td>Pompoko</td>
-                    <td>Isao Takahata</td>
-                </tr>
-                <tr>
-                    <td>1989</td>
-                    <td>Kiki, la aprendiz de bruja</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-                <tr>
-                    <td>1999</td>
-                    <td>Mis vecinos los Yamadas</td>
-                    <td>Isao Takahata</td>
-                </tr>
-                <tr>
-                    <td>1984</td>
-                    <td>Nausicaä del valle del viento</td>
-                    <td>Hayao Miyazaki</td>
-                </tr>
-            </table>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4RbBRkrZ01M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="container">
+            <h2 class="table-title">Películas del estudio</h2>
+            <div class="container table-responsive{-md}">
+                <table class="table table-striped table-bordered">
+                    <caption>Lista de películas</caption>
+                    <tr class="thead-dark" >
+                        <th>Año</th>
+                        <th>Título</th>
+                        <th>Director</th>
+                    </tr>
+                    <tr>
+                        <td>1984</td>
+                        <td>Nausicaä del valle del viento</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1986</td>
+                        <td>El castillo en el cielo</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1988</td>
+                        <td>La tumba de las luciérnagas</td>
+                        <td>Isao Takahata</td>
+                    </tr>
+                    <tr>
+                        <td>1988</td>
+                        <td>Mi vecino Totoro</td>
+                        <td>Hayao Miyasaki</td>
+                    </tr>
+                    <tr>
+                        <td>1989</td>
+                        <td>Kiki, la aprendiz de bruja</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1991</td>
+                        <td>Recuerdos del ayer</td>
+                        <td>Isao Takahata</td>
+                    </tr>
+                    <tr>
+                        <td>1992</td>
+                        <td>Porco Rosso</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1993</td>
+                        <td>Puedo escuchar el mar</td>
+                        <td>Tomomi Mochizuki</td>
+                    </tr>
+                    <tr>
+                        <td>1994</td>
+                        <td>Pompoko</td>
+                        <td>Isao Takahata</td>
+                    </tr>
+                    <tr>
+                        <td>1995</td>
+                        <td>Susurros del corazón</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1997</td>
+                        <td>La princasa Mononoke</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>1999</td>
+                        <td>Mis vecinos los Yamada</td>
+                        <td>Isao Takahata</td>
+                    </tr>
+                    <tr>
+                        <td>2001</td>
+                        <td>El viaje de Chihiro</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>Haru en el reino de los gatos</td>
+                        <td>Hiroyuki Morita</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>El castillo ambulante</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>Cuentos de Terramar</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>Ponyo y el secreto de la sirenita</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>El mundo secreto de Arriety</td>
+                        <td>Hiromasa Yonebayashi</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>La colina de las amapolas</td>
+                        <td>Goro Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>El viento se levanta</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>El cuento de la princesa Kaguya</td>
+                        <td>Isao Takahata</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>El recuerdo de Marnie</td>
+                        <td>Hiromasa Yonebayashi</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>¿Cómo vives? (por estrenar)</td>
+                        <td>Hayao Miyazaki</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>Earwig y la bruja (por estranar)</td>
+                        <td>Goro Miyazaki</td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados</p>
+        <div class="container-fluid footer">
+            <p class="footer_item">Copyright 2020</p>
+            <ul class="social-media-container footer_item">
+                <li><a href="https://twitter.com" class= "social-media" target="blank"><img class= "social-media" src="images/twitter.svg"></a></li>
+                <li><a href="https://facebook.com" class= "social-media" target="blank"><img  class= "social-media" src="images/facebook.svg"></a></li>
+                <li><a href="https://instagram.com" class= "social-media" target="blank"><img  class= "social-media" src="images/instagram.svg"></a></li>
+            </ul>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
