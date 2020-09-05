@@ -117,12 +117,19 @@ li {
     flex-direction: column;
     padding: 36px;
 }
+.game_title{
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 .game_form{
     margin: 12px 12px 12px 0;
     outline: #516186;
 }
 .intentos{
     margin: 0;
+    font-size: 18px;
 }
 
 .clue{
