@@ -7,3 +7,6 @@ Este proyecto fue desarrollado en el marco del programa clip como práctica de l
 > - Bootstrap
 > - Css
 > - Javascript  
+
+### Para ver la página:
+[GitHub Pages](https://bluemary04.github.io/actividad_clip_mes_1/)
